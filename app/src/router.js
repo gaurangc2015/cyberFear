@@ -10,7 +10,6 @@ define(['app','backbone', 'react','jquery','bootstrap','cmpld/splashPage/SplashC
 			"PE" : "payend",
 			"report" : "report",
 			"login" : "login",
-			"auth/login" : "authLogin",
 			"createUser" : "createUser",
 			"contactUs" : "contactUs",
 			"requestInvitation" : "requestInvitation",
@@ -110,17 +109,10 @@ define(['app','backbone', 'react','jquery','bootstrap','cmpld/splashPage/SplashC
                 document.getElementById('mainBody'));
         },
 
-		authLogin: function () {
-			React.render(
-				<SplashCollection page={'index'}/>,
-				document.getElementById('mainBody'));
-		},
-
 		login: function () {
 			React.render(
-				<SplashCollection page={'index'}/>,
+				<SplashCollection page={'login'}/>,
 				document.getElementById('mainBody'));
-			$('#loginUser').modal('show');
 		},
 
 		createUser: function () {

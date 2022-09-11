@@ -1,6 +1,6 @@
 define(['react','app','wow',
 	'cmpld/splashPage/head','cmpld/splashPage/compare',
-	'cmpld/splashPage/footer','cmpld/modals/login',
+	'cmpld/splashPage/footer','cmpld/splashPage/authLogin',
 	'cmpld/splashPage/forgotPassword','cmpld/splashPage/forgotSecret',
 	'cmpld/modals/reportBug','cmpld/modals/createUser',
 		'cmpld/splashPage/pe',

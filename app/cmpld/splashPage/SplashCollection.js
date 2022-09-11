@@ -1,4 +1,4 @@
-define(['react', 'app', 'wow', 'cmpld/splashPage/head', 'cmpld/splashPage/compare', 'cmpld/splashPage/footer', 'cmpld/modals/login', 'cmpld/splashPage/forgotPassword', 'cmpld/splashPage/forgotSecret', 'cmpld/modals/reportBug', 'cmpld/modals/createUser', 'cmpld/splashPage/pe', 'cmpld/modals/tokenPop', 'cmpld/modals/paymentGate', 'cmpld/modals/dialogPop'], function (React, app, Wow, SplashHead, Compare, SplashFoot, Login, ForgotPassword, ForgotSecret, ReportBug, CreateUser, PE, TokenPop, PaymentGate, DialogPop) {
+define(['react', 'app', 'wow', 'cmpld/splashPage/head', 'cmpld/splashPage/compare', 'cmpld/splashPage/footer', 'cmpld/splashPage/authLogin', 'cmpld/splashPage/forgotPassword', 'cmpld/splashPage/forgotSecret', 'cmpld/modals/reportBug', 'cmpld/modals/createUser', 'cmpld/splashPage/pe', 'cmpld/modals/tokenPop', 'cmpld/modals/paymentGate', 'cmpld/modals/dialogPop'], function (React, app, Wow, SplashHead, Compare, SplashFoot, Login, ForgotPassword, ForgotSecret, ReportBug, CreateUser, PE, TokenPop, PaymentGate, DialogPop) {
 	var body;
 
 	return React.createClass({
